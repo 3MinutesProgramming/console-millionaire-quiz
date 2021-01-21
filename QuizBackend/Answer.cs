@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace QuizBackend
 {
-    public class Question
+    public class Answer
     {
         public int Id { get; set; }
-        public string Category { get; set; }
         public string Text { get; set; }
-        public List<Answer> Answers { get; set; }
+        public bool IsCorrect { get; set; }
     }
 }
